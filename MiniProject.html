@@ -1,0 +1,171 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFirstProject</title>  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+    h1{
+        color: white;
+        font-size: 35px;
+    }
+    h5{
+        color: white;
+        font-size: 25px;
+    }
+    .search{
+        justify-items: center;
+    }
+    .searchbar{
+        justify-items: center;
+    }
+    .sec{
+        justify-items: center;
+    }
+    </style>
+</head>
+<body style="background: url(./wallpaper2.webp);background-color: rgba(15, 15, 15, 0.5);">
+    <div class="header">
+        <nav class="navbar" style="background-color:transparent ">
+            <img src="./Netflix-Logo-HD.png" alt="logo" width="150" height="70" class="d-inline-block">
+            <h6 style="color: rgb(160, 35, 35); text-decoration: underline;"></h6>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">English</button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">French</a></li>
+                    <li><a class="dropdown-item" href="#">Czech</a></li>
+                    <li><a class="dropdown-item" href="#">Danes</a></li>
+                </ul>
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">Channels</button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://www.youtube.com">YouTube</a></li>
+                    <li><a class="dropdown-item" href="https://www.google.com">Google</a></li>
+                    <li><a class="dropdown-item" href="https://www.amazon.in">Amazon</a></li>
+                    <li><a class="dropdown-item" href="https://mal-simon001.github.io/calculateQuick/">MyOwnApp</a></li>
+                </ul>
+                <button type="button" class="btn btn-danger"><a href="https://mal-simon001.github.io/calculateQuick/">A project On NetFlix HomePage by ApostleSimon</a></button>
+            </div>
+        </nav>
+    </div>
+    <div class="search">
+ <span><h1>Unlimited movies, TV Shows and More</h1></span>
+        <h1></h1>
+        <span><h5>Watch anywhere. Cancel anytime</h5></span>
+      
+    </div>
+    <div class="searchbar">
+      <form class="d-flex" role="search">
+            <input type="search" class="form-control " placeholder="Email Address" aria-label="fixed">
+            <button class="btn btn-danger class" type="submit">Get started</button>
+            <!-- <label for="email">Email</label> -->
+            <!-- <input type="email" id="email"placeholder="Enter your email"> -->
+            <!-- <button class="btn btn-danger" type="submit">Get Started</button> -->
+        </form>
+    </div>
+    <section class="sec">
+       <h1 style="color: white; margin-top: 50px;">Popular Movies on Netflix</h1>
+       <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./image5.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./image6.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img9.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img10.jpeg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section><br><br>
+    <section class="my-5">
+       <center><h2 style="color: rgb(230, 220, 220); background-color: black;">FAQ's</h2></center>
+       <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              What is Netflix?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Netflix is a subscription-based streaming service that allows members to watch TV shows and movies without commercials on an internet-connected device.1. It offers a wide variety of award-winning TV programs, films, anime, documentaries, and more. 2. You can watch as much as you want, whenever you want, without a single advert. 3. Netflix is available on thousands of internet-connected devices2</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              How much does NetFlix cost?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Netflix offers three streaming plans in the US, with varying prices:
+              1. Standard with Ads: $6.99/month, ad-supported, all but a few movies and TV shows available, unlimited mobile games, watch on 2 supported devices at a time, watch in Full HD.
+              2. Standard: $15.49/month, unlimited ad-free movies, TV shows, and mobile games, watch on 2 supported devices at a time, watch in Full HD.
+              3. Premium: $22.99/month.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Where can I watch?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">You can watch Netflix on any internet-connected device that offers the Netflix app, such as:
+          1. Your personal computer or laptop
+          2.  Smart TVs
+          3.  Set-top boxes
+          4.  Blu-ray players
+          5.  Game consoles</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-black text-white p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>About Us</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white"><a href="https://jobs.netflix.com/jobs">Careers</a></a></li>
+                        <li><a href="#" class="text-white"><a href="https://help.netflix.com/legal/privacy">Privacy</a></a></li>
+                        <li><a href="#" class="text-white">Terms</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Help</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Help Center</a></li>
+                        <li><a href="#" class="text-white">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p>&#169 All Rights Reserved.</p>
+    </footer>
+    <footer style="background-color: black; border: 2px solid whitesmoke;">
+      <div>
+        <div style="color: white; font-style: italic; text-decoration: underline;">Contact:</div>
+        <div style="color: white; font-style: italic;">Call or WhatsApp: 0241965902</div>
+        <div style="color: white; font-style: italic;">designer: Simon</div>
+      </div>
+    </footer>
+  
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+</body>
+</html>
